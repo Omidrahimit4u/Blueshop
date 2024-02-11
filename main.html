@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/SourceCode/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="/SourceCode/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>BlueShop</title>
+  </head>
+  <body>
+    <header class="">
+      <!-- navbar 1 -->
+      <div
+        class="d-flex flex-wrap justify-content-lg-between justify-content-center border-bottom pb-2 container-fluid"
+      >
+        <div class="justify-content-lg-center mt-2">
+          <a class="navbar-brand text-primary fs-3 mx-2 mt-2" href="#">
+            BlueShop
+          </a>
+        </div>
+        <form
+          class="d-flex d-inline-block bg-light rounded col-12 col-lg-auto mb-2 mt-2 mb-lg-0 me-lg-auto"
+          role="search"
+        >
+          <button class="btn btn-light" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+
+          <input
+            class="form-control d-inline-block fs-6"
+            type="search"
+            placeholder="جستجو"
+            aria-label="Search"
+          />
+        </form>
+
+        <!--                           -->
+        <div class="d-flex mt-2">
+          <button type="button" class="btn btn-light fs-6">
+            <a href="/SourceCode/login.html" target="_blank" class="nav-link">
+              <i class="bi bi-box-arrow-in-left mx-1 s-lg icon-login"></i> ثبت
+              نام <span class="space log">|</span> ورود</a
+            >
+          </button>
+          <span class="space mx-2">|</span>
+          <button class="btn btn-light shop">
+            <i class="bi bi-bag-heart"></i>
+          </button>
+        </div>
+      </div>
+      <!-- navbar2 -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-three-dots-vertical"></i>
+          </button>
+          <div class="collapse navbar-collapse me-auto " id="navbarNavAltMarkup">
+            <!-- dropdown -->
+            <ul
+              class="nav justify-content-start fs-6 text- bg-primary rounded-3"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light link-opacity-100"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-three-dots-vertical text-light"></i>
+
+                  دسته‌بندی کالاها
+                </a>
+                <ul class="dropdown-menu fs-6">
+                  <li><a class="dropdown-item mt-2" href="#">دیجیتال</a></li>
+                  <li>
+                    <a class="dropdown-item mt-2" href="#">خانه و آشپز خانه</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item mt-2" href="#">پوشاک و مد</a>
+                    <a class="dropdown-item mt-2" href="#">سوپر مارکت</a>
+                    <a class="dropdown-item my-2" href="#">داروخانه</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="navbar-nav fs-6">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="bi bi-percent"></i>شگفت‌انگیزها</a
+              >
+
+              <a class="nav-link" href="#"
+                ><i class="bi bi-basket"></i>سوپرمارکت</a
+              >
+              <a class="nav-link" href="#"
+                ><i class="bi bi-credit-card-2-back-fill"></i>کارت هدیه</a
+              >
+              <a class="nav-link" href="#"
+                ><i class="bi bi-fire"></i>پرفروش‌ترین‌ها</a
+              >
+              <a class="nav-link me-auto" href="#"
+                ><i class="bi bi-disc"></i>تخفیف‌ها و پیشنهادها</a
+              >
+              <a href="" class="nav-link position-absolute end-0"
+                ><i class="bi bi-geo-alt"></i>لطفا شهر خود را انتخاب کنید</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- start sction 1 -->
+    <section class="container my-4">
+      <div
+        class="container row-cols-lg-1 row-cols-4 d-flex justify-content-lg-between d-grid justify-content-center flex-wrap"
+      >
+        <div class="d-flex col-lg-auto my-4 my-lg-1 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 52px; height: 52px" class="">
+              <img
+                class="w-100"
+                height="52px"
+                width="52px"
+                src="/SourceCode/Image/sec1/625d8883f37944f3f0c4af5fe39435600931ab22_1664309850.png"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.8rem" class="mt-1">حراج</p>
+            </div>
+          </a>
+        </div>
+        <div
+          class="d-flex col-3 col-lg-auto my-4 my-lg-1 justify-content-center"
+        >
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 52px; height: 52px">
+              <img
+                class="w-100"
+                height="52px"
+                width="52px"
+                src="/SourceCode/Image/sec1/6c69096a524add2d4646cd162dfa5f66d4ddceac_1668952039.png"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: auto" class="mt-1">خریدعمده</p>
+            </div>
+          </a>
+        </div>
+        <div
+          class="d-flex col-3 col-lg-auto my-4 my-lg-1 justify-content-center"
+        >
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 52px; height: 52px">
+              <img
+                class="w-100"
+                style="object-fit: contain"
+                height="52px"
+                width="52px"
+                src="/SourceCode/Image/sec1/78ccd40cbf305fb067de78ddab5be84f69589c8d_1669150455.png"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.4rem" class="mt-1">بلوپلاس</p>
+            </div>
+          </a>
+        </div>
+        <div
+          class="d-flex col-3 col-lg-auto my-4 my-lg-1 justify-content-center"
+        >
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 52px; height: 52px">
+              <img
+                class="w-100"
+                style="object-fit: contain"
+                height="52px"
+                width="52px"
+                src="/SourceCode/Image/sec1/ac127167132653d14c758748b07824a6a7643a31_1663444619.png"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.6rem" class="mt-1">بلو پی</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-3 col-lg-auto my-4 my-lg-1">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 52px; height: 52px">
+              <img
+                class="w-100"
+                style="object-fit: contain"
+                height="52px"
+                width="52px"
+                src="/SourceCode/Image/sec1/c73910b873cb355d07f9210509074de7e4297f54_1692516683.png"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.8rem" class="mt-1">کیف</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-3 col-lg-auto my-4 my-lg-1">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 52px; height: 52px">
+              <img
+                class="w-100"
+                style="object-fit: contain"
+                height="52px"
+                width="52px"
+                src="/SourceCode/Image/sec1/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.6rem" class="mt-1">بلوجت</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-3 col-lg-auto my-4 my-lg-1">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 52px; height: 52px">
+              <img
+                class="w-100"
+                style="object-fit: contain"
+                height="52px"
+                width="52px"
+                src="/SourceCode/Image/sec1/f01a2eeeba603d52ee3f4b32b186bc4e662dce60_1691999454.png"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.9rem" class="mt-1">بازی</p>
+            </div>
+          </a>
+        </div>
+        <!-- button modal -->
+        <div
+          class="d-flex col-3 col-lg-auto my-4 my-lg-1"
+          style="width: 60px; height: 60px; border-radius: 30px; border: none"
+        >
+          <button
+            href=""
+            class="bg-light btn-light w-100 h-100"
+            style="width: 52px; height: 52px; border-radius: 30px; border: none"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-three-dots"
+              viewBox="0 0 16 16"
+              class="w-100"
+            >
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+              />
+            </svg>
+          </button>
+        </div>
+        <!-- modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-bag-heart-fill"
+                    viewBox="0 0 16 16"
+                    class="bg-primary mx-1"
+                  >
+                    <path
+                      d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"
+                    />
+                  </svg>
+                  خدمات بلوشاپ
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">...</div>
+              <div class="modal-footer">
+                <!-- modal footer -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start section 2 -->
+    <section class="container-fluid">
+      <div>
+        <a class="nav-link" href="">
+          <div class="bg-light p-4 rounded-4 d-flex flex-wrap shadow">
+            <div
+              class="d-flex col-12 justify-content-center col-lg-4 my-lg-0 my-3"
+            >
+              <div class="mx-3" style="height: 66px; width: 62px">
+                <img src="/SourceCode/Image/market/logo.webp" alt="" />
+              </div>
+              <div class="ms-2 mt-3">
+                <img
+                  src="/SourceCode/Image/market/fresh.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+
+            <div
+              class="d-flex ms-lg-auto me-lg-5 col-12 justify-content-center col-lg-auto justify-content-lg-between"
+            >
+              <div style="height: 58px; width: 58px" class="rounded-4">
+                <img
+                  class="rounded-circle"
+                  src="/SourceCode/Image/market/0f756bdeb01b1cb864c7e0937a74fc7e968b3188_1652251677.webp"
+                  alt=""
+                  width="58px"
+                  height="58px"
+                />
+                <span class="bg-danger white rounded-4 mb-5 px-1 takhfif"
+                  >۲۰%</span
+                >
+              </div>
+              <div style="height: 58px; width: 58px" class="rounded-4 ms-4">
+                <img
+                  class="rounded-circle"
+                  src="/SourceCode/Image/market/19566c32d6401b14c1b7157f37a05ee5fcc3e7ec_1625374856.webp"
+                  alt=""
+                  width="58px"
+                  height="58px"
+                />
+                <span class="bg-danger white rounded-4 mb-5 px-1 takhfif"
+                  >۲۰%</span
+                >
+              </div>
+              <div style="height: 58px; width: 58px" class="rounded-4 ms-4">
+                <img
+                  class="rounded-circle"
+                  src="/SourceCode/Image/market/520d3586c5c327a6dacdce4ee0cc98e3330c884b_1640603399.webp"
+                  alt=""
+                  width="58px"
+                  height="58px"
+                />
+                <span class="bg-danger white rounded-4 mb-5 px-1 takhfif"
+                  >۲۰%</span
+                >
+              </div>
+              <div style="height: 58px; width: 58px" class="rounded-4 ms-4">
+                <img
+                  class="rounded-circle"
+                  src="/SourceCode/Image/market/75d6be52f9842e15c9c9d9ba55c759b315f66504_1625308738.webp"
+                  alt=""
+                  width="58px"
+                  height="58px"
+                />
+                <span class="bg-danger white rounded-4 mb-5 px-1 takhfif"
+                  >۲۰%</span
+                >
+              </div>
+              <div style="height: 58px; width: 58px" class="rounded-4 ms-4">
+                <img
+                  class="rounded-circle"
+                  src="/SourceCode/Image/market/ef82c45e19b0dea21421862ed91964925f01842f_1597062408.webp"
+                  alt=""
+                  width="58px"
+                  height="58px"
+                />
+                <span class="bg-danger white rounded-4 mb-5 px-1 takhfif"
+                  >۲۰%</span
+                >
+              </div>
+              <div style="height: 58px; width: 58px" class="rounded-4 ms-4">
+                <img
+                  class="rounded-circle"
+                  src="/SourceCode/Image/market/f.webp"
+                  alt=""
+                  width="58px"
+                  height="58px"
+                />
+                <span class="bg-danger white rounded-4 mb-5 px-1 takhfif"
+                  >۲۰%</span
+                >
+              </div>
+            </div>
+            <div
+              class="my-lg-3 mt-4 col-12 col-lg-auto d-flex justify-content-center justify-content-lg-between"
+            >
+              <button
+                class="btn btn-primary rounded-4 fs-6 px-4"
+                style="color: white"
+              >
+                بیش از ۱۰۰ کالا
+                <i style="color: white" class="bi bi-arrow-left"></i>
+              </button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- end section 2 -->
+
+    <!-- ------------------------------------------------------------------------ -->
+
+    <!-- start section 3 -->
+    <section>
+      <div
+        class="d-flex flex-wrap d-inline-block row my-5 mx-3 gx-2 gy-4 justify-content-lg-center justify-content-lg-between"
+      >
+        <div
+          class="rounded-4 col-lg-auto col-md-6 col-12 d-flex justify-content-center"
+        >
+          <a href="">
+            <img
+              class="rounded-4"
+              height="300px"
+              width="300px"
+              src="/SourceCode/Image/sec3/1.webp"
+              alt=""
+          /></a>
+        </div>
+        <div
+          class="rounded-4 col-lg-auto col-md-6 col-12 d-flex justify-content-center"
+        >
+          <a href="">
+            <img
+              class="rounded-4"
+              height="300px"
+              width="300px"
+              src="/SourceCode/Image/sec3/2.webp"
+              alt=""
+            />
+          </a>
+        </div>
+        <div
+          class="rounded-4 col-lg-auto col-md-6 col-12 d-flex justify-content-center"
+        >
+          <a
+            href="
+"
+          >
+            <img
+              class="rounded-4"
+              height="300px"
+              width="300px"
+              src="/SourceCode/Image/sec3/3.webp"
+              alt=""
+          /></a>
+        </div>
+        <div
+          class="rounded-4 col-lg-auto col-md-6 col-12 d-flex justify-content-center"
+        >
+          <a href="">
+            <img
+              class="rounded-4"
+              height="300px"
+              width="300px"
+              src="/SourceCode/Image/sec3/4.webp"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- end section 3 -->
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <!-- start  section 4 -->
+
+    <section class="container my-4 my-5">
+      <div class="d-flex justify-content-center mt-5">
+        <a class="nav-link border-bottom border-primary" href="">
+          <h4>دسته‌بندی‌های بلوشاپ</h4>
+        </a>
+      </div>
+      <div
+        class="container row-cols-lg-6 d-grid mb-5 row-cols-4 d-flex justify-content-lg-between d-grid justify-content-center flex-wrap"
+      >
+        <div class="d-flex col-lg-2 my-4 my-lg-5 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/1.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.4rem" class="mt-1">موبایل</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-5 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/2.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.4rem" class="mt-1">دیجیتال</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-5 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/3.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.4rem" class="mt-1">آشپزخانه</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-5 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/4.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.5rem" class="mt-1">پوشاک</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-5 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/5.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.8rem" class="mt-1">سوپرمارکت</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-5 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/6.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.8rem" class="mt-1">لوازم تحریر</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-1 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/7.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 0.8rem" class="mt-1">اسباب بازی</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-1 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/8.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.5rem" class="mt-1">سلامت</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-1 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/9.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.5rem" class="mt-1">ورزشی</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-1 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/10.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.8rem" class="mt-1">ابزار</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-1 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/11.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.8rem" class="mt-1">خودرو</p>
+            </div>
+          </a>
+        </div>
+        <div class="d-flex col-lg-2 my-4 my-lg-1 justify-content-center">
+          <a href="" class="fs-6 nav-link">
+            <div style="width: 90px; height: 90px" class="">
+              <img
+                class="w-100"
+                height="90px"
+                width="90px"
+                src="/SourceCode/Image/grouping/12.webp"
+                alt=""
+                srcset=""
+              />
+              <p style="margin-right: 1.5rem" class="mt-1">محلی</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- end  section 4 -->
+
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+    <!-- start  section 5 -->
+    <section class="container-fluid">
+      <div class="container-fluid">
+        <div class="d-flex gy-4 me-2 flex-wrap justify-content-around my-3">
+          <a href="">
+            <div class="d-inline-block mb-4" style="height: 250px; width: auto">
+              <img
+                class="w-100 h-100 rounded-5"
+                src="/SourceCode/Image/sec5/1.webp"
+                alt=""
+              /></div
+          ></a>
+          <a href="">
+            <div class="d-inline-block" style="height: 250px; width: auto">
+              <img
+                class="w-100 h-100 rounded-5"
+                src="/SourceCode/Image/sec5/2.webp"
+                alt=""
+              /></div
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- end  section 5 -->
+    <!-- ---------------------------------------------------- -->
+    <!-- start section 6 -->
+
+    <section class="flex-wrap d-flex justify-content-center">
+      <div
+        class="container-fluid d-flex row flex-wrap justify-content-center mx-5 border my-5 rounded-4"
+      >
+        <div class="col-lg-3 col-12 justify-content-center border-lg-end my-1">
+          <div class="justify-content-end my-2">
+            <h6>گوشی موبایل</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row justify-content-center">
+            <div class="col-6 d-flex justify-content-center border-set-1 pb-4">
+              <a href=""
+                ><img
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/1.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-2 pb-4">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/2.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/3.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="mt-4 ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/4.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-12 justify-content-center border-lg-end my-1">
+          <div class="justify-content-end my-2">
+            <h6>کیف و کاور گوشی</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row gx-3 justify-content-center align-item-center">
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-1">
+              <a href=""
+                ><img
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/5.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-2">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/6.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/7.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="mt-4 ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/8.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 justify-content-center border-lg-end my-1">
+          <div class="justify-content-end my-2">
+            <h6>هدفون، هدست و هندزفری</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row gx-3 justify-content-center align-item-center">
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-1">
+              <a href=""
+                ><img
+                  class="mx-2"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/9.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-2">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/11.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mx-2"
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/12.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/13.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 justify-content-center my-1">
+          <div class="justify-content-end my-2">
+            <h6>دفتر</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row gx-3 justify-content-center align-item-center">
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-1">
+              <a href=""
+                ><img
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/14.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-2 pb-4">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/15.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/16.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="mt-4 ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/17.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section 6 -->
+
+    <!-- ------------------------------------- -->
+
+    <!-- start section 7 = blueshop -->
+
+    <section class="flex-wrap">
+      <div class="container-fluid">
+        <div
+          class="bg-info py-2 rounded-4 flex-wrap d-flex mx-1 row justify-content-center"
+        >
+          <div class="text-light d-inline-block p-5 col-lg-3 col-12">
+            <h3 class="mt-4">BlueShop</h3>
+            <p class="fs-6">خدمات ویژه برای اعضای بلوشاپ</p>
+            <button class="btn border border-light">
+              عضویت<i class="bi bi-arrow-left"></i>
+            </button>
+          </div>
+          <div
+            class="col-lg-4 col-11 bg-light me-4 rounded-4 mb-2 mb-lg-0 ms-4 ms-lg-0"
+          >
+            <div class="d-flex justify-content-between mb-3 mt-3 flex-wrap">
+              <div class="  ">
+                <h6 class=""><i class="bi bi-cash-coin"></i>هدیه نقدی</h6>
+              </div>
+              <div class="  ">
+                <a class="nav-link text-primary" href="">
+                  <p class="fs-6">مشاهده همه ></p>
+                </a>
+              </div>
+            </div>
+            <div class="row d-flex flex-wrap">
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/1.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/2.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/3.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/4.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/5.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/6.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-11 bg-light rounded-4">
+            <div class="d-flex justify-content-between mb-3 mt-3 flex-wrap">
+              <div class="  ">
+                <h6 class=""><i class="bi bi-cash-coin"></i>هدیه نقدی</h6>
+              </div>
+              <div class="  ">
+                <a class="nav-link text-primary" href="">
+                  <p class="fs-6">مشاهده همه ></p>
+                </a>
+              </div>
+            </div>
+            <div class="row d-flex flex-wrap gy-3">
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/1.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/2.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/3.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/4.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/5.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+              <div class="col-4">
+                <a class="nav-link" href="">
+                  <img
+                    height="116px"
+                    width="116px"
+                    src="/SourceCode/Image/blushop/6.jpg"
+                    alt=""
+                  />
+                  <p class="fs-6 ms-3 text-primary">۵۰۰۰ تومان هدیه</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start sction 8 -->
+    <section class="flex-wrap d-flex justify-content-center">
+      <div
+        class="container-fluid d-flex row flex-wrap justify-content-center mx-5 border mt-5 rounded-4"
+      >
+        <div class="col-lg-3 col-12 justify-content-center border-lg-end my-1">
+          <div class="justify-content-end my-2">
+            <h6>ساعت هوشمند</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row justify-content-center">
+            <div class="col-6 d-flex justify-content-center border-set-1 pb-4">
+              <a href=""
+                ><img
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/1.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-2 pb-4">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/2.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/3.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="mt-4 ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/4.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-12 justify-content-center border-lg-end my-1">
+          <div class="justify-content-end my-2">
+            <h6>لپ تاپ و الترابوک</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row gx-3 justify-content-center align-item-center">
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-1">
+              <a href=""
+                ><img
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/5.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-2">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/6.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/7.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="mt-4 ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/8.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 justify-content-center border-lg-end my-1">
+          <div class="justify-content-end my-2">
+            <h6>خودکار و روان نویس</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row gx-3 justify-content-center align-item-center">
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-1">
+              <a href=""
+                ><img
+                  class="mx-2"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/9.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-2">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/11.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mx-2"
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/12.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="ms-3 mt-2"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/13.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 justify-content-center my-1">
+          <div class="justify-content-end my-2">
+            <h6>کیف و کوله مدرسه</h6>
+            <p class="fs-6">بر اساس بازدیدهای شما</p>
+          </div>
+          <div class="d-flex row gx-3 justify-content-center align-item-center">
+            <div class="col-6 d-flex justify-content-center pb-4 border-set-1">
+              <a href=""
+                ><img
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/14.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-2 pb-4">
+              <a href=""
+                ><img
+                  class="ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/15.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-3">
+              <a href=""
+                ><img
+                  class="mt-4"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec8/16.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-6 d-flex justify-content-center border-set-4">
+              <a href=""
+                ><img
+                  class="mt-4 ms-3"
+                  width="124.63px"
+                  height="124.63px"
+                  src="/SourceCode/Image/sec6/17.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-light fs-6">
+              بیشتر<i class="bi bi-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end sction 8 -->
+
+    <!-- ----------------------------------------- -->
+    <!-- start footer -->
+
+    <footer class="mt-5 mx-3">
+      <div class="container-fluid border-top">
+        <div class="row mt-3">
+          <div class="col-6 col-md-2 mb-3">
+            <h6>با بلوشاپ</h6>
+            <ul class="nav flex-column fs-6">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  اتاق خبر</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">فروش</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >فرصت‌های شغلی</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >گزارش تخلف در بلوشاپ</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >تماس با بلوشاپ</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >درباره بلوشاپ</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h6>خدمات مشتریان</h6>
+            <ul class="nav flex-column fs-6">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >سوالات متداول</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >بازگردانی کالا</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">شرایط</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >حریم خصوصی</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">گزارش</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h6>راهنمای خرید از دیجی‌کالا</h6>
+            <ul class="nav flex-column fs-6">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >ثبت سفارش</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >ارسال سفارش</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">پرداخت</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h6>همراه ماباشید</h6>
+              <p class="fs-6">با ثبت ایمیل از جدید ترین اخبار مطلع شوید</p>
+              <span>
+                <a href="" class="nav-link fs-4"
+                  ><i class="bi bi-twitter"></i>
+                  <i class="bi bi-instagram"></i> <i class="bi bi-linkedin"></i
+                  ><i class="bi bi-chat-dots-fill"></i
+                ></a>
+              </span>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >ایمیل شما</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="ایمیل شما"
+                />
+                <button class="btn btn-primary text-light" type="button">
+                  ثبت
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <p class="fs-6 text-center">Designed by OMID</p>
+    </footer>
+
+    <script src="/SourceCode/bootstrap.bundle.js"></script>
+  </body>
+</html>

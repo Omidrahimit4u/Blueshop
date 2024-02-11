@@ -1,0 +1,76 @@
+/* .bg-navbar{
+    background-color: rgba(13, 13, 255, 0.267); 
+}
+
+.city-nav{
+    text-decoration: none;
+}
+ ul li a{
+    color: black;
+    
+ } */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+i {
+  color: blue;
+  font-size: 1.1em;
+  margin: 0 2px 0 2px;
+}
+
+.space {
+  opacity: 50%;
+  margin-top: 5px;
+}
+.icon-login {
+  font-size: 1.4em;
+}
+
+html {
+  margin: 0;
+}
+
+.white {
+  color: white;
+}
+
+.takhfif {
+  position: relative;
+  bottom: 20px;
+  font-size: 0.7em;
+}
+
+/* .btn-primary{
+    color: white;
+} */
+
+.border-set-1 {
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+
+.border-set-4 {
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+.border-set-2 {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+.border-set-3 {
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+.border-lg-end {
+  border-left: 1px solid lightgray;
+}
+
+@media only screen and (max-width: 680px) {
+  /* For mobile phones: */
+  .border-lg-end {
+    border-bottom: 1px solid lightgray;
+    border-left: none;
+  }
+}
